@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="./OTP.css">
+</head>
+<body><br>
+<div class="d-flex justify-content-center align-items-center container">
+    <div class="card py-5 px-3">
+        <h5 class="m-0">Mobile phone verification</h5><span class="mobile-text">Enter the code we just send on your
+            mobile phone <b class="text-danger">+91 987777777 </b></span>
+        <div class="d-flex flex-row mt-5">
+            <span id="otp1"></span>
+            <span id="otp2"></span>
+            <span id="otp3"></span>
+            <span id="otp4"></span>
+            
+        </div>
+        <div class="text-center mt-5"><span class="d-block mobile-text">Don't receive the code?</span>
+            <br>
+          <button type="submit" id="submit" class="btn-submit" onclick="Generate()"><span class="font-weight-bold text-danger cursor">Click to Get OTP!</span></button>  
+        </div>
+    </div>
+</div>
+    <script src="./OTP.js"></script>
+</body>
+</html>
